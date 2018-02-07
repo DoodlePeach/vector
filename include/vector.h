@@ -6,8 +6,7 @@
 class vector
 {
     public:
-        vector(float, float , float);
-        vector();
+        vector(float = 0, float = 0, float = 0);
 
         void setData();
         friend float dotProduct(vector lhs, vector rhs);

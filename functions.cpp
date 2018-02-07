@@ -7,11 +7,6 @@ vector::vector(float i, float j, float k)
     z = k;
 }
 
-vector::vector()
-{
-    x = y = z = 0;
-}
-
 void vector::setData()
 {
     std::cout << "Enter X component: ";
@@ -65,11 +60,4 @@ vector crossProduct(vector lhs, vector rhs)
     temp.z = lhs.x * rhs.y - lhs.y * rhs.x;
 
     return temp;
-}
-
-void vector::operator*(float rhs)
-{
-    x = x * rhs;
-    y = y * rhs;
-    z = z * rhs;
 }
