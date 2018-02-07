@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1517503769 source:c:\users\taimur\desktop\c__projects\vector\functions.cpp
+	<vector.h>
+
+1517503769 c:\users\taimur\desktop\c__projects\vector\include\vector.h
+	<iostream>
+
+1517503233 source:c:\users\taimur\desktop\c__projects\vector\main.cpp
+	<iostream>
+	"vector.h"
+
+1517502100 c:\users\taimur\desktop\c__projects\vector\functions.cpp
+	<vector.h>
+
