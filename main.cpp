@@ -1,11 +1,5 @@
 #include <iostream>
 #include "vector.h"
-//#include "functions.cpp"
-
-vector operator*(vector vect)
-{
-
-}
 
 using namespace std;
 
